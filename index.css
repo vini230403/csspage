@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: black
+}
+
+.banner {
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.342)),  url('./img/Background.png');
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    padding: 20px;
+}
+
+.top h1{
+    margin-bottom: 10px;
+    background: linear-gradient(to right, rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;  /* Padrão */
+    -webkit-background-clip: text; /* Compatibilidade com navegadores baseados em WebKit */
+    -webkit-text-fill-color: transparent;
+
+    font-weight: 900px;
+    font-size: 40px;
+}
+
+.top p {
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 400px;
+}
+
+.link {
+    display: inline-block; /* Permite definir altura e largura */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+    font-weight: 900px;
+    color: white; /* Cor do texto */
+    
+    border: 2px solid transparent; /* Cria um espaço para o gradiente */
+    border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 169, 221, 0.342)) padding-box,
+                linear-gradient(to right, #00c6ff, #0072ff) border-box;
+}
+
+.top img {
+    width: 250px;
+    height: 250px;
+}
+
+.medium {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.title {
+    background: linear-gradient(to right, rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;  /* Padrão */
+    -webkit-background-clip: text; /* Compatibilidade com navegadores baseados em WebKit */
+    -webkit-text-fill-color: transparent;
+
+    font-size: 32px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.medium2 p {
+    font-size: 16px;
+    color: white;
+    font-weight: 400px;
+    margin-bottom: 20px
+}
+
+.border {
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    font-size: 16px;
+    font-weight: 400px;
+}
+
+.module {
+    
+    display: inline-block; /* Permite definir altura e largura */
+    padding: 10px 20px; /* Espaçamento interno */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 16px;
+    font-weight: 900px;
+    color: white; /* Cor do texto */
+    
+    border: 1px solid rgba(51, 168, 219, 1); /* Cria um espaço para o gradiente */
+    border-radius: 57px;
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.4) inset;
+    background: linear-gradient(rgba(37, 37, 37, 1));
+
+    margin: 10px    
+}
+
+.module span {
+    background: linear-gradient(to right, rgba(51, 168, 219, 1), rgba(20, 114, 183, 1));
+    background-clip: text;  /* Padrão */
+    -webkit-background-clip: text; /* Compatibilidade com navegadores baseados em WebKit */
+    -webkit-text-fill-color: transparent;
+
+}
+
+.low {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    min-height: 50vh; 
+    background-image: url('./img/Background3.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Faz a imagem cobrir toda a área */
+    background-position: center;
+} 
+
+.low2 {
+    width: 100%;
+}
+
+.low2 h1 {
+    text-align: left;
+    padding-left:120px ;
+
+    font-weight: 900;
+    font-size: 40px;
+    color: rgba(255, 255, 255, 1); /* Define a cor do texto como branco */
+    text-shadow: 3px 2px 0px rgba(51, 168, 219, 1);
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.end p {
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    border-top: 1px solid rgba(51, 168, 219, 1)
+}
+
+footer .link {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+footer p {
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
