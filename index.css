@@ -195,4 +195,21 @@ footer p {
     margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+    .end .title {
+        max-width: 55%; /* Reduzindo a largura máxima */
+        margin: 20px auto 0; /* Centralizando */
+        text-align: center;
+    }
 
+    .end img {
+        width: 440px;
+        height: 440px;
+    }
+
+    .end p {
+        max-width: 90%; /* Reduzindo a largura máxima */
+        margin: 20px auto 0; /* Centralizando */
+        text-align: center;
+    }
+}
