@@ -203,13 +203,17 @@ footer p {
     }
 
     .end img {
-        width: 440px;
-        height: 440px;
+        width: 420px;
+        height: 420px;
     }
 
     .end p {
-        max-width: 90%; /* Reduzindo a largura máxima */
+        max-width: 85%; /* Reduzindo a largura máxima */
         margin: 20px auto 0; /* Centralizando */
         text-align: center;
+    }
+
+    .low2 h1 {
+        padding: 6px;
     }
 }
